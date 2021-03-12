@@ -6,15 +6,15 @@
 
 
 
-1. 디렉토리 생성 및 파일 생성
-
-    $ mkdir docker_image_making \
-    $ cd docker_image_making
-
-- requirements.txt 파일 생성 \
-$ echo "Flask==0.12.2" > requirements.txt \
-$ touch hello.py \
-$ vi requirements.txt  
+1. 디렉토리 생성 및 파일 생성 \
+        ''' code 
+        $ mkdir docker_image_making \
+        $ cd docker_image_making 
+ ''' 
+    - requirements.txt 파일 생성 \
+    $ echo "Flask==0.12.2" > requirements.txt \
+    $ touch hello.py \
+    $ vi requirements.txt  
 
   - requirements.txt에 들어갈 내용 \
   Flask==0.12.2 \

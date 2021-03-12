@@ -16,6 +16,8 @@
             $ echo "Flask==0.12.2" > requirements.txt 
             $ touch hello.py 
             $ vi requirements.txt             
+            
+       
 
   - requirements.txt에 들어갈 내용 
   
@@ -26,6 +28,7 @@
 - Dockerfile 생성
 
         $ vi Dockerfile
+        
     - 아래 내용을 입력한 후, ESC 버튼을 누르고 :wq 를 입력하여 파일을 저장한다.
  
           FROM python
@@ -53,7 +56,7 @@
 
         $ python3 hello.py 
         
-        ![pythonfile](https://user-images.githubusercontent.com/69622147/110906756-beb32a80-834f-11eb-8dd2-868dee860072.png)
+   ![pythonfile](https://user-images.githubusercontent.com/69622147/110906756-beb32a80-834f-11eb-8dd2-868dee860072.png)
                 
                 
 2. 도커 이미지 만들기
@@ -63,13 +66,13 @@
         $ docker build --tag [이미지명] 
         ex) $ docker build --tag image-test 
         
-        ![imagemaking](https://user-images.githubusercontent.com/69622147/110906755-beb32a80-834f-11eb-82cd-3195e066f07b.png)
+   ![imagemaking](https://user-images.githubusercontent.com/69622147/110906755-beb32a80-834f-11eb-82cd-3195e066f07b.png)
 
 - 잘 만들어 졌는지 확인하기. 
 
         $ docker inage ls 
         
-        ![dockerfind](https://user-images.githubusercontent.com/69622147/110906751-bd81fd80-834f-11eb-88cb-bd70f05edbc6.png)
+   ![dockerfind](https://user-images.githubusercontent.com/69622147/110906751-bd81fd80-834f-11eb-88cb-bd70f05edbc6.png)
 
 - 실행시키기 
 
@@ -78,11 +81,13 @@
 - 현재 실행되고 있는 파일 확인하기 
 
         $ docker ps 
+        
+    
 
 3. 포트포워딩 및 실행 된 화면 
 
 
-        ![결과](https://user-images.githubusercontent.com/69622147/110906757-bf4bc100-834f-11eb-9d6e-71f36d183aa1.png)
+   ![결과](https://user-images.githubusercontent.com/69622147/110906757-bf4bc100-834f-11eb-9d6e-71f36d183aa1.png)
 
 
 

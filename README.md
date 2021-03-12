@@ -15,15 +15,15 @@
  
             $ echo "Flask==0.12.2" > requirements.txt 
             $ touch hello.py 
-            $ vi requirements.txt             
-            
-       
+            $ vi requirements.txt              
 
   - requirements.txt에 들어갈 내용 
   
           Flask==0.12.2 
           bs4 
           requests
+          
+ ![requirements](https://user-images.githubusercontent.com/69622147/110907875-61b87400-8351-11eb-8bd0-8f0e094f7251.png)
 
 - Dockerfile 생성
 

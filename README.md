@@ -29,7 +29,7 @@
 
         $ vi Dockerfile
               
-   ![pythonfile](https://user-images.githubusercontent.com/69622147/110907520-df2fb480-8350-11eb-9680-406c38248bdc.png)
+![dockerfile](https://user-images.githubusercontent.com/69622147/110907528-e22aa500-8350-11eb-8f81-f9477e6b3b66.png)
         
     - 아래 내용을 입력한 후, ESC 버튼을 누르고 :wq 를 입력하여 파일을 저장한다.
  

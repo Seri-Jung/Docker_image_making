@@ -28,6 +28,8 @@
 - Dockerfile 생성
 
         $ vi Dockerfile
+              
+   ![pythonfile](https://user-images.githubusercontent.com/69622147/110907520-df2fb480-8350-11eb-9680-406c38248bdc.png)
         
     - 아래 내용을 입력한 후, ESC 버튼을 누르고 :wq 를 입력하여 파일을 저장한다.
  
@@ -51,6 +53,8 @@
 
                 if __name__=='__main__':
                     app.run(debug=True,host='0.0.0.0')
+                    
+    ![파이썬](https://user-images.githubusercontent.com/69622147/110907506-da6b0080-8350-11eb-9d3d-7e167e5d91d8.png)
             
 - 파이썬 파일이 잘 실행되는지 확인하기
 
@@ -70,7 +74,7 @@
 
 - 잘 만들어 졌는지 확인하기. 
 
-        $ docker inage ls 
+        $ docker image ls 
         
    ![dockerfind](https://user-images.githubusercontent.com/69622147/110906751-bd81fd80-834f-11eb-88cb-bd70f05edbc6.png)
 
@@ -82,7 +86,7 @@
 
         $ docker ps 
         
-    
+   ![실행](https://user-images.githubusercontent.com/69622147/110907511-dc34c400-8350-11eb-97aa-9799d95d18a4.png)
 
 3. 포트포워딩 및 실행 된 화면 
 

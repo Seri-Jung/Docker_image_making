@@ -8,9 +8,8 @@
 
 1. 디렉토리 생성 및 파일 생성
 
-- 디렉토리 생성 \
-$ mkdir docker_image_making \
-$ cd docker_image_making
+    $ mkdir docker_image_making \
+    $ cd docker_image_making
 
 - requirements.txt 파일 생성 \
 $ echo "Flask==0.12.2" > requirements.txt \
@@ -42,7 +41,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
+def hello():  
         return "Hello World!"
 
 if __name__=='__main__':

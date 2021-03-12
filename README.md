@@ -11,28 +11,30 @@
         $ mkdir docker_image_making 
         $ cd docker_image_making 
 
-    - requirements.txt 파일 생성 \
-            $ echo "Flask==0.12.2" > requirements.txt \
-            $ touch hello.py \
+    - requirements.txt 파일 생성 
+    
+            $ echo "Flask==0.12.2" > requirements.txt 
+            $ touch hello.py 
             $ vi requirements.txt  
 
-  - requirements.txt에 들어갈 내용 \
-  Flask==0.12.2 \
-  bs4 \
-  requests
+  - requirements.txt에 들어갈 내용 
+  
+          Flask==0.12.2 
+          bs4 
+          requests
 
 - Dockerfile 생성
-$ vi Dockerfile
-  - 아래 내용을 입력한 후, ESC 버튼을 누르고 :wq 를 입력하여 파일을 저장한다.
-  '''
-  FROM python
-  COPY . /app
-  WORKDIR /app
-  RUN pip install flask
-  EXPOSE 5000
-  CMD ["python", "hello.py"]
-  '''
-  
+
+        $ vi Dockerfile
+    - 아래 내용을 입력한 후, ESC 버튼을 누르고 :wq 를 입력하여 파일을 저장한다.
+ 
+          FROM python
+          COPY . /app
+          WORKDIR /app
+          RUN pip install flask
+          EXPOSE 5000
+          CMD ["python", "hello.py"]
+
  - python flask hello.py 파일 생성
     - 에러가 난다면 $ pip3 install flask 또는 $ pip install flask를 본인의 python 버전에 맞게 실행시켜 라이브러리를 다운받는다.
     - 그래도 에러가 난다면 $ pip uninstall beautifulsoap 또는 $ pip uninstall beautifulsoap4를 해보자!

@@ -41,7 +41,7 @@
           CMD ["python", "hello.py"]
 
  - python flask hello.py 파일 생성
-            - 에러가 난다면 $ pip3 install flask 또는 $ pip install flask를 본인의 python 버전에 맞게 실행시켜 라이브러리를 다운받는다.
+            - 에러가 난다면 $ pip3 install flask 또는 $ pip install flask를 본인의 python 버전에 맞게 실행시켜 라이브러리를 다운받는다. \
             - 그래도 에러가 난다면 $ pip uninstall beautifulsoap 또는 $ pip uninstall beautifulsoap4를 해보자!
 
                 from flask import Flask

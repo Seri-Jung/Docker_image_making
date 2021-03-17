@@ -92,7 +92,7 @@
 - 포트포워딩 설명 및 설정방법은 아래 사이트 참고: \
 https://haddoddo.tistory.com/entry/ipTIME-%ED%8F%AC%ED%8A%B8%ED%8F%AC%EC%9B%8C%EB%94%A9-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95-%EA%B0%84%EB%8B%A8-%EC%A0%95%EB%A6%AC
    
-   ![결과](https://user-images.githubusercontent.com/69622147/110906757-bf4bc100-834f-11eb-9d6e-71f36d183aa1.png)
+   ![실행결과](https://user-images.githubusercontent.com/69622147/111403468-6180f580-8710-11eb-9bfd-d609f1916051.jpg)
 
 
 

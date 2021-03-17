@@ -1,4 +1,4 @@
-# docker image 만들기 
+# 간단한 docker image 만들어보기
 
 #### - python flask를 docker image로 실행시키기
 #### - Linux 환경에서 실행

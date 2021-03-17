@@ -76,7 +76,7 @@
 
         $ docker image ls 
         
-   ![dockerfind](https://user-images.githubusercontent.com/69622147/110906751-bd81fd80-834f-11eb-88cb-bd70f05edbc6.png)
+  ![dockerfind](https://user-images.githubusercontent.com/69622147/111402821-3cd84e00-870f-11eb-810f-fa59112d479f.png)
 
 - 실행시키기 
 
@@ -86,7 +86,7 @@
 
         $ docker ps 
         
-   ![실행](https://user-images.githubusercontent.com/69622147/110907511-dc34c400-8350-11eb-97aa-9799d95d18a4.png)
+![실행](https://user-images.githubusercontent.com/69622147/111402825-3ea21180-870f-11eb-8ae7-4929c9a3478c.png)
 
 3. 포트포워딩 및 실행 된 화면 
 
